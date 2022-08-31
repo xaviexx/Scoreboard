@@ -1,0 +1,71 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: Cursed Timer ULiL;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    
+}
+
+#hero {
+    background-image: url(https://images.unsplash.com/photo-1602357280104-742c517a1d82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=950&q=80);
+    background-size: cover;
+    padding: 10px 0px 20px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.main-titles {
+    font-size: 40px;
+    font-weight: 700px;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Verdana';
+}
+
+.score-background {
+    
+    margin: 15px 0px 30px;
+    background: black;
+    border-radius: 5px;
+    width: 180px;
+    height: 120px;
+    
+}
+
+#scoreHome, #scoreGuest {
+    
+    font-family: 'Cursed Timer ULiL';
+    color: #CC5236;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.points {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.points-btn {
+    text-shadow: 0px 0px 5px;
+    font-size: 20px;
+    padding: 10px;
+    background: #1B244A;
+    border-radius: 10px;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+}
